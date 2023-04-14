@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do seu navegador
+    </p>
+
+    <picture>
+        <source media="(max-width:  750px)" srcset="imagens/Conan-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/Conan-m.png" type="image/png">
+        <img src="imagens/Conan-g.png"alt="Imagem flexível">
+    </picture><!--lembrando que o source media tem que ser na ordem acima, p.png e m.png-->
+   
+   
+    
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/Kendrick-Lamar,SZA-All-The-Stars.mp3" controls autoplay></audio><!--mp3 wav ogg-->
+
+    <!--<h1>tbm da pra fazer assim:</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Kendrick-Lamar,SZA-All-The-Stars.mp3" type="audio/mp3">
+        <source src="midia/Kendrick-Lamar,SZA-All-The-Stars.wav" type="audio/wav">
+        <source src="midia/Kendrick-Lamar,SZA-All-The-Stars.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador n consegue reproduzir audio.
+            <a href="midia/Kendrick-Lamar,SZA-All-The-Stars.mp3"> Clique aqui para baixar o arquivo</a></p>
+        </audio>-->
+    
+</body>
+</html>
