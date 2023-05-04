@@ -1,0 +1,21 @@
+
+main {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    height: 200px;
+    width: 100%;
+    margin: -10px;
+    padding: 29px;
+    background-color: rgb(0, 10, 7);
+    
+}
+main > p {
+    
+    font-size: 17px;
+
+
+    
+    
+}
+
